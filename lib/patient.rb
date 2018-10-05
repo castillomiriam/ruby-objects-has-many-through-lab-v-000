@@ -20,4 +20,5 @@ def doctors
   Appointment.all.select do |appointments|
     appointments.patient == self
   end
-end
+  end
+  
