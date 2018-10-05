@@ -23,9 +23,7 @@ def appointments
   end
 
 def doctors
-  Appointments.all.map do |patient|
-    doctor.appointment
-end
+  Appointment.all.map{|a| a.doctor}
 end
 
 end
