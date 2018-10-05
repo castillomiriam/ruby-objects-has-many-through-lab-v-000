@@ -7,7 +7,7 @@ def self.all
 @@all
 end
 
-def initialize('Monday, August 1st', patient, doctor)
+def initialize(('Monday, August 1st'), patient, doctor)
   @patient = patient
   @doctor = doctor
   @@all << self
