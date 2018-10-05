@@ -3,4 +3,4 @@ class Patient
 
   @@all = []
 
-  
+  def initialize(name)
