@@ -16,9 +16,10 @@ def new_appointment(doctor, date)
   Appointment.new(doctor, self, date)
 end
 
-def doctors
+def appointments
   Appointment.all.select do |appointments|
     appointments.patient == self
   end
   end
-  
+
+def doctors 
