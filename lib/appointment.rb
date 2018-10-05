@@ -13,3 +13,4 @@ def initialize(date, patient, doctor)
   @doctor = doctor
   @@all << self
 end
+end
