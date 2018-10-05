@@ -8,3 +8,4 @@ def self.all
 end
 
 def initialize("Monday, August 1st", patient, doctor)
+  @@all << self
