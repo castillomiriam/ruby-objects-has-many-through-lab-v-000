@@ -22,4 +22,5 @@ def appointments
   end
   end
 
-def doctors 
+def doctors
+end
