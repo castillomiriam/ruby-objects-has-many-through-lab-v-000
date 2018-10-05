@@ -3,6 +3,7 @@ attr_accessor :name
 
 @@all = []
 
-self.all
+def self.all
 @@all
 end
+
