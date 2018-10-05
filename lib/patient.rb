@@ -24,3 +24,4 @@ def appointments
 
 def doctors
 end
+end
