@@ -1,2 +1,2 @@
 class Appointment
-end
+attr_accessor :name
