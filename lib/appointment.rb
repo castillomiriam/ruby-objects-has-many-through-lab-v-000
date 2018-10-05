@@ -8,6 +8,7 @@ def self.all
 end
 
 def initialize(date, patient, doctor)
+  @date = "Monday, August 1st"
   @patient = patient
   @doctor = doctor
   @@all << self
