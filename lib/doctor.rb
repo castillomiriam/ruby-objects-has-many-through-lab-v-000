@@ -9,7 +9,7 @@ class Doctor
 end
 
 def self.all
-  @@aall
+  @@all
 end
 
 def new_appointment(name, date)
