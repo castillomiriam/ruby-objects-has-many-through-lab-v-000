@@ -4,3 +4,5 @@ attr_accessor :name
 @@all = []
 
 self.all
+@@all
+end
